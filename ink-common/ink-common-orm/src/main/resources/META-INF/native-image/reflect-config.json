@@ -1,0 +1,26 @@
+[
+  {
+    "name": "io.github.lishangbu.ink.common.orm.id.SnowFlakeIdGenerator",
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "cn.hutool.core.lang.Snowflake"
+        ]
+      },
+      {
+        "name": "generate",
+        "parameterTypes": [
+          "org.hibernate.engine.spi.SharedSessionContractImplementor",
+          "java.lang.Object"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cn.hutool.core.lang.Snowflake",
+    "queryAllDeclaredMethods": true
+  }
+]
